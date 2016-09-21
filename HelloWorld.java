@@ -9,5 +9,8 @@ public class HelloWorld(){
 	
 	public void setName(String name){
 		name = this.name;;
+
+	public HelloWorld(String text){
+		System.out.println(text);
 	}
 }
